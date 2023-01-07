@@ -1,0 +1,93 @@
+$color_1: #F5FBF2;
+$color_2: #00E3A5;
+$color_3: white;
+$font-family_1: 'Montserrat', sans-serif;
+$background-color_1: black;
+$background-color_2: #0D0D0D;
+$background-color_3: #00e3a6cc;
+
+@import "https://fonts.googleapis.com/css2?family=Montserrat&display=swap";
+
+body {
+  background-color: $background-color_1;
+}
+
+
+ul {
+  li {
+    display: inline;
+  }
+}
+
+header {
+  padding: 70px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 26px;
+  position: fixed;
+  width: 823px;
+  height: 22px;
+  left: 968.5px;
+  top: 40.2px;
+
+  a {
+    font-family: $font-family_1;
+    padding-left: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: $color_1;
+    transition: 0.2s;
+
+    &:hover {
+      color: $color_2;
+    }
+  }
+}
+
+.btn {
+  position: fixed;
+  top: 40px;
+  right: 280px;
+}
+
+.airdrop-btn {
+  background-color: #0D0D0D;
+  box-sizing: border-box;
+  border: 1px solid #00E3A5;
+  border-radius: 5px;
+  color: white;
+  padding: 25px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  cursor: cell;
+  position: fixed;
+  top: 30px;
+  right: 130px;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: $background-color_3;
+    box-shadow: 0 4px 8px 0 rgba(31, 255, 79, 0.2), 0 6px 20px 0 rgba(117, 236, 48, 0.19);
+  }
+}
+
+.logo {
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: $color_1;
+  position: fixed;
+  top: 13px;
+  left: 130px;
+}
+
