@@ -13,7 +13,7 @@ export default class Header extends Component {
                                 <li><a href="">Services</a></li>
                                 <li><a href="">How it works</a></li>
                                 <li><a href="">Community</a></li>
-                                <li><a href="https://google.com"><button className='airdrop-btn'>Airdrop</button></a></li>
+                                <li><a href="https://google.com" target={'_blank'}><button className='airdrop-btn'>Airdrop</button></a></li>
                             </ul>
                         </div>
                         <div className="logo">
