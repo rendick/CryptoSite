@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './About.scss'
-import Group from './group.png'
+import Group from '../../images/group.png'
 
 export default class About extends Component {
     render() {
