@@ -1,22 +1,47 @@
 .menu {
-    width: 1400px;
-    height: 600px;
+    width: 1416px;
+    height: 625px;
     border-radius: 0px 300px 300px 0px;
-    background: #FFFFFF;
+    background: #030e0b;
+    margin-top: 15px;
 }
 
 .menu p {
     font-weight: 400;
     font-size: 30px;
     width: 600px;
-    line-height: 32px;
+    line-height: 31px;
     font-family: "Montserrat", sans-serif;
     margin-left: 100px;
-    margin-top: 76px;
+    margin-top: -21px;
+    color: #80AB9E;
 }
 
-.menu h2{
-    font-size: 50px;
-    margin-left: 95px;
-    margin-top: -10px;
+.menu h2 {
+    font-size: 52px;
+    margin-left: 100px;
+    padding-top: 35px;
+    color: #FFFFFF;
+}
+
+.main-btn {
+    background-color: #4caf4f00;
+    border: 1px solid #00E3A5;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 100px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.group img{
+    width: 871.5px;
+    height: 720px;
+    margin-left: 800px;
+    margin-top: -800px;
 }
